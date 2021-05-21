@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
+  .bg-hero-pattern {
+    @apply bg-center bg-cover;
+  }
+  .center {
+    @apply flex flex-row justify-center items-center;
+  }
+  .bg-header-dashboard {
+    /* background: linear-gradient(87.8deg, #ed213a 6.19%, #93291e 99.43%); */
+    background-color: #ed213a;
+  }
 
-* {
-  box-sizing: border-box;
+  .floating {
+    transform: translateY(0px);
+    animation: floating-animation 4s ease-in-out infinite;
+  }
+
+  @keyframes floating-animation {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
 }
