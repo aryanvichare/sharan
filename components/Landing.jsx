@@ -12,7 +12,7 @@ const Landing = () => {
         <div className='absolute inset-0 w-full h-full bg-gray-900 opacity-50' />
         <nav className='max-w-6xl mx-auto relative flex items-center justify-between w-full h-20 px-8'>
           <img
-            className='w-8'
+            className='w-10'
             src='images/gradient-logo.png'
             alt='Sharan Logo'
           />
