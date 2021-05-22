@@ -61,7 +61,7 @@ const Features = () => {
             </h3>
             <p className='font-poppins mt-5 text-lg text-gray-700 text md:text-left'>
               Sharan heavily uses your data to create the most relevant and
-              personalized experience. Not only do was ask for personal details,
+              personalized experience. Not only do we ask for personal details,
               but we also ask for your financial background to tailor potential
               jobs and shelters most appropriate to your needs.
             </p>
