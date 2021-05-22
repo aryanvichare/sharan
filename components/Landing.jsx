@@ -35,7 +35,7 @@ const Landing = () => {
               <p className='inline-block w-auto px-3 py-1 mb-5 text-xs font-medium text-white uppercase bg-indigo-600 rounded-full bg-gradient-to-br'>
                 New features released
               </p>
-              <h1 className='font-extrabold tracking-tight text-center text-white text-4xl md:text-7xl lg:text-left xl:pr-32'>
+              <h1 className='font-extrabold tracking-tight text-center text-white text-4xl md:text-5xl lg:text-7xl lg:text-left xl:pr-32'>
                 Helping refugees{" "}
                 <span className='text-indigo-200'>resettle.</span>
               </h1>
